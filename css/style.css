@@ -1,0 +1,269 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #f9f9f7 url("../images/a1.gif") repeat-x;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #8c8c73;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    clear: left;
+
+}
+
+  .container {
+    padding: 15px;
+    background-color: #f0f0f0;
+  }
+  .header {
+    font-size: 2em;
+    color: #333;
+  }
+  @media (max-width: 767px) {
+    .header {
+      font-size: 1.5em;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+      font-size: 2em;
+    }
+  }
+  @media (min-width: 1024px) {
+    .header {
+      font-size: 2.5em;
+    }
+  }
+#menu #container{
+ position: relative;
+
+}
+a{
+    color: #509cd3;
+    text-decoration: none;
+    font-size: 13px;
+}
+a:hover{
+    text-decoration: underline;
+}
+sup{
+    font-size: 0.3em;
+}
+p{
+   
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #04406b;
+   
+    display: inline;
+  
+}
+
+img.picA{
+    position: relative;
+    top: -2px;
+    width: 104px;
+    height: 104px;
+    padding: 8px;   
+}
+img.picB{
+    position: relative;
+    top: -2px;
+    width: 146px;
+    height: 147px;
+    padding: 7px; 
+}
+img.floatleft{
+    float: left;
+    margin: 0px 14px 3px 0px;
+
+}
+
+ul.linklist{
+    list-style: none;
+
+
+}
+ul.linklist li{
+    border-top: solid 1px #eeeeee;
+    padding-top: 5px;
+    margin: 5px 0px 0px 0px;
+}
+ul.linklist li.first{
+
+    border-top: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#primero{
+    position: relative;
+    width: 60%;
+    margin: 0px auto;
+    background-color: white;
+    border: initial;
+    overflow: overlay;
+}
+#header{
+    max-width: 100%;
+    height: 170px;
+}
+#header p{
+    padding: 20px 40px;
+    font-size: 14px;
+    text-align: justify;
+ 
+
+}
+#header #campus{
+    float: left;
+    width: 57%;
+    height: 170px;
+    max-width: 100%;
+}
+#header #agujero{
+    float: left;
+    background: white ;
+    width: 43%;
+    height: 170px;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+  
+
+}
+#header #agujero img{
+    padding: 0px;
+    width: 100%;
+    height: 85%;
+    border: 5px solid rgb(17, 85, 104);
+    
+}
+#header #agujero span{
+    color: rgb(39, 8, 104);
+    font-weight: bold; /*negrita*/
+    font-size: 12px;
+ 
+    
+}
+#header #agujero h1{
+    padding: 1px;
+    color: #639fe8e3;
+    font-weight: normal;
+    font-size: 15px; 
+    letter-spacing: -1px;
+
+    
+}
+#header #agujero sup{
+    color: #fce2ca ;
+}
+#principalconten{
+    width: 100%;
+    background: white;
+}
+
+#secondarycontent{
+width: 43%;
+float: right;
+}
+#secondarycontent .content{
+  padding: 0px 10px;
+  margin-bottom: 20px;
+
+}
+#secondarycontent .content img{
+   width: 350px;
+  
+  }
+#secondarycontent h3{
+
+    font-size: 16px;
+    line-height: 25px;
+    color: #110846;
+    letter-spacing: -1px;
+    background: url("../imagenes/diseno-fondo-azul-suave-textura-grunge-abstracta_1055-19624.avif")bottom repeat-x;/*que se repita en el eje x*/
+    padding: 0px 0px 10px 10px;
+    margin-bottom: 20px;
+}
+#primarycontent{
+    float: left;
+    width: 43%;
+    margin-right: 3px;
+}
+#primarycontent h3{
+    font-size: 18px;
+    line-height: 25px;
+    color:  #110846;
+    letter-spacing: -1px;
+    background: url("../imagenes/diseno-fondo-azul-suave-textura-grunge-abstracta_1055-19624.avif")bottom repeat-x;/*que se repita en el eje x*/
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 20px;
+}
+
+#primarycontent .post{
+    margin-bottom: 30px;
+}
+
+#primarycontent .post .footer{
+    background: url("../imagenes/diseno-fondo-azul-suave-textura-grunge-abstracta_1055-19624.avif") repeat-x;
+    height: 24px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+#primarycontent .post .footer ul li{
+    display: inline;
+    line-height: 14px;
+    padding-left: 17px;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+
+}
+#primarycontent .post .footer ul li.readmore{
+    background-image: url("../imagenes/diseno-fondo-azul-suave-textura-grunge-abstracta_1055-19624.avif");
+
+}
+.tercer{
+    max-width: 100%;
+    height: 170px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.tercer .content1 img{
+    float: left;
+    width: 25%;
+    height: 150px;
+    max-width: 60%;
+    margin: 15px;
+}
+.tercer .content2 img{
+    float: left;
+    width: 25%;
+    height: 150px;
+    max-width: 60%;
+    margin: 15px;
+}
+.tercer .content3 img{
+    float: left;
+    width: 25%;
+    height: 150px;
+    max-width: 60%;
+    margin: 15px;
+}
+#footer{
+    border-top: double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    color:  #110846;
+    padding-top: 15px;
+}
+.color{
+    background-image: url("../imagenes/diseno-fondo-azul-suave-textura-grunge-abstracta_1055-19624.avif");
+}
